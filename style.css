@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    //border: 1px solid red;
+}
+
+body {
+    height: 700px;
+    max-width: 700px;
+    font-family: 'Karla', sans-serif;
+    background: #F5F7FB;
+    color: #293264;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 70px;
+}
+
+.start {
+    width: 100%;
+    height: 100%;
+}
+
+.yellow {
+    margin-left: 78%;
+    margin-bottom: -8%;
+}
+
+.blue {
+    display: block;
+    margin-top: -5%;
+    margin-left: -9%;
+}
+.start--text {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.start--text > h2 {
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 37px;
+}
+
+.start--text > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.start--quiz {
+    width: 193px;
+    height: 52px;
+    background: #4D5B9E;
+    border: none;
+    border-radius: 15px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #F5F7FB;
+    margin-top: 29px;
+}
+
+.question--question {
+    margin: 15px;
+}
+
+.trivia--check-answers {
+    width: 120px;
+    height: 35px;
+    font-family: 'Karla', sans-serif;
+    background: #4D5B9E;
+    border-radius: 10px;  
+    border: none;
+    font-size: 13px;
+    line-height: 12px;
+    text-align: center;
+    color: #F5F7FB;
+    margin-left: 40%;
+    margin-top: 4%;
+}
+
+.results--container {
+    display: flex;
+}
+
+.results--container > h2 {
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #293264;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+.results--container > button {
+    width: 104px;
+    height: 30px;
+    background: #4D5B9E;
+    border-radius: 10px;
+    font-family: 'Karla', sans-serif;
+    border: none;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #F5F7FB;
+    margin-left: 18px; 
+    margin-top: 2%;
+}
+
+.question--answers {
+    font-size: 11px;
+    line-height: 12px;
+    height: 2rem;
+    text-align: center;
+    color: #293264;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-right: -3px;
+    border: 1px solid #4D5B9E;
+    margin-bottom: 8px;
+    min-width: 19px;
+}
+
+.border {
+    border-bottom: 1px solid #DBDEF0;
+    width: 95%;
+    margin-top: 6px;
+    height: 6px;
+}
+
+.trivia--game > h2 {
+    font-size: 29px;
+    font-weight: 700;
+}
